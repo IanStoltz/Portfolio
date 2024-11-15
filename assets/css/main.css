@@ -2553,7 +2553,7 @@ input, select, textarea {
     	flex-wrap: wrap;
     	justify-content: center;
     	gap: 2em;
-		font-size: .9em;
+		font-size: .8em;
 	}
 
 	.logo-container-f {
