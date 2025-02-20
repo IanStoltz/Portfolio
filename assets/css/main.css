@@ -2585,7 +2585,7 @@ input, select, textarea {
 			max-width: 80%;
 		}
 		.image.fit img {
-        height: 180px; /* Altura ajustada para tablets e dispositivos móveis */
+        height: 180px;
 		}
 	}
 	
