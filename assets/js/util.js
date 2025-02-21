@@ -579,5 +579,20 @@
 			});
 
 	};
+	// Inserção do novo código
+	$(document).ready(function() {
+		$('.gif-container').on('touchstart', function() {
+			var gif = $(this).find('.gif');
+			var staticImg = $(this).find('.static');
+			
+			if (gif.css('opacity') === '0') {
+				gif.css('opacity', '1');
+				staticImg.css('opacity', '0');
+			} else {
+				gif.css('opacity', '0');
+				staticImg.css('opacity', '1');
+			}
+		});
+	});
 
 })(jQuery);
